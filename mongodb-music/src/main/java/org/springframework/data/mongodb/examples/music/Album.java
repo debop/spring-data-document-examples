@@ -1,13 +1,13 @@
 package org.springframework.data.mongodb.examples.music;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -27,7 +27,7 @@ public class Album {
 	/**
 	 * Creates a new {@link Album} with the given title and artist.
 	 * 
-	 * @param string
+	 * @param title
 	 * @param artist
 	 */
 	public Album(String title, String artist) {

@@ -8,10 +8,11 @@
 	<version>0.1.0.BUILD-SNAPSHOT</version>
 	<name>myrestaurants-analytics</name>
 	<properties>
-		<spring.version>3.0.5.RELEASE</spring.version>
-		<spring.data.mongo.version>1.0.0.M3</spring.data.mongo.version>
+        <spring.version>3.2.2.RELEASE</spring.version>
+        <spring.data.mongo.version>1.2.1.RELEASE</spring.data.mongo.version>
+        <spring.data.jpa.version>1.3.2.RELEASE</spring.data.jpa.version>
 		<aspectj.version>1.6.11.RELEASE</aspectj.version>
-		<slf4j.version>1.6.1</slf4j.version>
+		<slf4j.version>1.6.15</slf4j.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-security.version>3.0.2.RELEASE</spring-security.version>
 	</properties>
